@@ -12,13 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rewake/lba.git",
-                "reference": "ee746e7df250d08b4b8510aa1d3fc348ee2de0ab"
+                "reference": "142bdbcd950fe47a2cf59422af8d99bf830046f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rewake/lba/zipball/ee746e7df250d08b4b8510aa1d3fc348ee2de0ab",
-                "reference": "ee746e7df250d08b4b8510aa1d3fc348ee2de0ab",
+                "url": "https://api.github.com/repos/rewake/lba/zipball/142bdbcd950fe47a2cf59422af8d99bf830046f8",
+                "reference": "142bdbcd950fe47a2cf59422af8d99bf830046f8",
                 "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
             },
             "default-branch": true,
             "type": "library",
@@ -34,7 +37,7 @@
                 "issues": "https://github.com/rewake/lba/issues",
                 "source": "https://github.com/rewake/lba/tree/main"
             },
-            "time": "2021-06-27T00:58:26+00:00"
+            "time": "2021-08-04T04:49:10+00:00"
         }
     ],
     "packages-dev": [],
