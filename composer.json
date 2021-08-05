@@ -1,5 +1,5 @@
 {
     "require": {
-        "rewake/lba": "dev-main"
+        "rewake/babs": "dev-main"
     }
 }

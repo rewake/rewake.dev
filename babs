@@ -1,5 +1,17 @@
+#!/usr/bin/env bash
+
+file=~/.bash_profile
+curdir=$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd -P)
+
+# Empty file
+> $file
+
+# Write aliases to file
+while alias= read -r line || [ -n "$line" ];
+do
+echo $line >> $file
+done <<- EOL
 alias pa='php artisan'
-alias art='php artisan'
 alias pas='php artisan serve'
 alias pam='php artisan migrate'
 alias pamf='php artisan migrate:fresh'
@@ -23,12 +35,16 @@ alias pat='php artisan tinker'
 alias tink='php artisan tinker'
 alias tinker='php artisan tinker'
 alias c='composer'
-alias ci='composer'
+alias ci='composer install'
 alias cr='composer require'
 alias crm='composer remove'
 alias cup='composer update'
 alias cug='composer upgrade'
 alias sail='vendor/bin/sail'
-alias sa='vendor/bin/sail'
-alias sud='vendor/bin/sail'
-alias sd='vendor/bin/sail'
+alias sa='vendor/bin/sail artisan'
+alias sud='vendor/bin/sail up -d'
+alias sd='vendor/bin/sail down'
+EOL
+
+# Source the aliases
+source $file
