@@ -12,6 +12,8 @@ do
 echo $line >> $file
 done <<- EOL
 alias pa='php artisan'
+alias art='php artisan'
+alias artisan='php artisan'
 alias pas='php artisan serve'
 alias pam='php artisan migrate'
 alias pamf='php artisan migrate:fresh'
@@ -20,7 +22,7 @@ alias migration='php artisan make:migration'
 alias mod='php artisan make:model'
 alias model='php artisan make:model'
 alias cont='php artisan make:controller'
-alias contract='php artisan make:controller'
+alias controller='php artisan make:controller'
 alias pol='php artisan make:policy'
 alias policy='php artisan make:policy'
 alias mw='php artisan make:middleware'
@@ -47,4 +49,4 @@ alias sd='vendor/bin/sail down'
 EOL
 
 # Source the aliases
-source $file
+. $file

@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rewake/babs.git",
-                "reference": "4fd1c7480620e9fbd1670ffe201dc1af0e48a264"
+                "reference": "89a0b6a0715d1d6143804da73fa5854cd749c9ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rewake/babs/zipball/4fd1c7480620e9fbd1670ffe201dc1af0e48a264",
-                "reference": "4fd1c7480620e9fbd1670ffe201dc1af0e48a264",
+                "url": "https://api.github.com/repos/rewake/babs/zipball/89a0b6a0715d1d6143804da73fa5854cd749c9ab",
+                "reference": "89a0b6a0715d1d6143804da73fa5854cd749c9ab",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 "issues": "https://github.com/rewake/babs/issues",
                 "source": "https://github.com/rewake/babs/tree/main"
             },
-            "time": "2021-08-05T03:19:58+00:00"
+            "time": "2021-08-06T00:35:40+00:00"
         },
         {
             "name": "symfony/console",
